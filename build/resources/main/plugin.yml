@@ -1,0 +1,12 @@
+name: HoiMau
+version: '1.0'
+main: me.distyhoangnam.hoimau.HoiMau
+api-version: '1.18'
+commands:
+  hoimau:
+    description: Hồi máu cho bản thân
+    usage: /hoimau
+permissions:
+  hoimau.use:
+    description: Cho phép sử dụng lệnh hồi máu (yêu cầu)
+    default: op
